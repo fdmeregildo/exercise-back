@@ -1,4 +1,4 @@
-package com.xxxldigital.webshopback.controller;
+package com.developer.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RestController;
  */
 
 @RestController
-@RequestMapping(UserController.BASE_MAPPING)
-public class UserController {
+@RequestMapping(DefaultController.BASE_MAPPING)
+public class DefaultController {
 
-	private static final Logger LOGGER = LoggerFactory.getLogger(UserController.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(DefaultController.class);
 
 	static final String BASE_MAPPING = "/home";
 	static final String USERGUEST = "{code}";
@@ -24,7 +24,7 @@ public class UserController {
 	@GetMapping
 	public ResponseEntity<String> getTest(){
 
-		return ResponseEntity.ok("Textooo!");
+		return ResponseEntity.ok("Exercise Back Default");
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.xxxldigital.webshopback.config;
+package com.developer.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -21,7 +21,7 @@ public class SwaggerConfig {
 
 		return new Docket(DocumentationType.SWAGGER_2)
 			.select()
-			.apis(RequestHandlerSelectors.basePackage("com.xxxldigital.webshopback.controller"))
+			.apis(RequestHandlerSelectors.basePackage("com.developer.controller"))
 			.paths(PathSelectors.any())
 			.build();
 	}

@@ -1,8 +1,7 @@
-package com.xxxldigital.webshopback.model.dto;
+package com.developer.model.dto;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
-import java.math.BigInteger;
 import lombok.Getter;
 import lombok.Setter;
 

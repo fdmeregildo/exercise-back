@@ -1,13 +1,12 @@
-package com.xxxldigital.webshopback.controller;
+package com.developer.controller;
 
-import com.xxxldigital.webshopback.model.dto.CartDto;
+import com.developer.model.dto.CartDto;
 import java.math.BigInteger;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,8 +16,8 @@ import org.springframework.web.bind.annotation.RestController;
  */
 
 @RestController
-@RequestMapping(ShopCartController.BASE_MAPPING)
-public class ShopCartController {
+@RequestMapping(DefaultCRUDController.BASE_MAPPING)
+public class DefaultCRUDController {
 
 	final static String BASE_MAPPING = "/api/cart";
 	final static String CART_MAPPING_RESOURCE = "/{id}";

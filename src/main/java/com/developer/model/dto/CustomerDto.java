@@ -1,4 +1,4 @@
-package com.xxxldigital.webshopback.model.dto;
+package com.developer.model.dto;
 
 import java.io.Serializable;
 import lombok.Getter;
